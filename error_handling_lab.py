@@ -3,7 +3,6 @@ from pathlib import Path
 
 
 
-
 def read_file(filename: str, encoding: str = "utf-8") -> str | None:
     """
     Read and return the contents of a file.
