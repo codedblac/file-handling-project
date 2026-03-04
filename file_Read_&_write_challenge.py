@@ -22,7 +22,6 @@ def modify_file_content(input_filename, output_filename):
         print(f"An error occurred: {e}")
 
 
-
 # Example usage
 input_filename = 'input.txt'  # Replace with your input file name
 output_filename = 'output.txt'  # Replace with your desired output file name
