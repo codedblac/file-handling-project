@@ -6,7 +6,8 @@ def modify_file_content(input_filename, output_filename):
 
         # Modify the content (For example, convert all text to uppercase)
         modified_content = content.upper()
-    
+
+        
         
         # Open the output file for writing
         with open(output_filename, 'w') as outfile:
