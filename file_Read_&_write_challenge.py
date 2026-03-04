@@ -8,6 +8,7 @@ def modify_file_content(input_filename, output_filename):
         modified_content = content.upper()
 
         
+        
         # Open the output file for writing
         with open(output_filename, 'w') as outfile:
             outfile.write(modified_content)
