@@ -41,7 +41,6 @@ def read_file(filename: str, encoding: str = "utf-8") -> str | None:
     return None
 
 
-
 def main():
     filename = input("Please enter the filename: ").strip()
 
